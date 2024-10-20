@@ -1,0 +1,289 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	background: hotpink;
+}
+a{
+	text-decoration: none;
+}
+.page{
+	width: 100%;
+}
+.page-top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 12.8vh;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background: black;
+	box-shadow: 4px 0 4px 0 darkgray;
+}
+.page-top a{
+	font-size: 36px;
+	font-weight: bold;
+	color: deeppink;
+	text-decoration: none;
+}
+.page-top p{
+	font-size: 16px;
+	color: #97FF66;
+}
+.page-con{
+	display: flex;
+	height: 89.2vh;
+	background: hotpink;
+	margin-top: 15.8vh;
+}
+.pc-nav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	width: 15.8vh;
+	height: 89.2vh;
+	padding-top: 15.8vh;
+	width: 15%;
+	background: black;
+	box-shadow: 4px 0 4px 0 darkgray;
+	color: white;
+}
+.pc-box{
+	height: 6000px;
+	margin-left: 17%;
+}
+.nav{
+	width: 100%;
+	margin-top: 6vh;
+}
+.nav a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+	color: #97FF66;
+}
+.nav .cative,.nav a:hover{
+	color: deeppink;
+}
+.code{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 7vh;
+}
+.code img{
+	width: 150px;
+	height: 150px;
+}
+.code p{
+	color: deeppink;
+	margin-top: 8px;
+}
+.home-top{
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+	margin-top: 5px;
+}
+.banner{
+	width: 1230px;
+	height: 350px;
+}
+.banner img{
+	display: block;
+	width: 90%;
+	height: 100%;
+}
+.user-info{
+	width: 330px;
+	height: 350px;
+	background: hotpink;
+	border-radius: 10px;
+	box-shadow: 0px 10px 15px -3px dimgray;
+}
+.ui-img img{
+	display: block;
+	width: 300%;
+	height: 128px;
+}
+.ui-text{
+	text-align: center;
+	margin-top: -70px;
+}
+.ui-text img{
+	width: 190px;
+	height: 130px;
+}
+.ui-text h3{
+	font-size: 20px;
+	font-weight: 600;
+	color: black;
+}
+.ui-text p{
+	font-size: 12px;
+	margin: 3px 0 15px 0;
+}
+.ui-link a{
+	display: inline-block;
+	width: 72px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	border-radius: 3px;
+}
+.ui-link a:nth-child(1){
+	background: #97FF66;
+	border: 1px solid #97FF66;
+	color: hotpink;
+}
+.ui-link a:nth-child(2){
+	border: 1px solid #97FF66;
+	color: #97FF66;
+}
+.zuopin{
+	width: 1000px;
+	height: 330px;
+	margin-top: 20px;
+	box-shadow: 0px 10px 13px -3px dimgray;
+	border-radius: 10px;
+}
+.commom-title{
+	font-size: 22px;
+	color: #97FF66;
+	padding-left: 10px;
+	border-left: 5px solid #97FF66;
+	margin-bottom: 15px;
+}
+.zuopin-box ul{
+	display: flex;
+	justify-content: space-between;
+}
+.zuopin-box ul li{
+	list-style: none;
+	width: 49%;
+	background: hotpink;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.zuopin-box ul li img{
+	display: block;
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.zuopin-box ul li p{
+	padding: 15px;
+	text-align: center;
+	color: #97FF66;
+	font-size: 18px;
+}
+.gong-box{
+	margin: 30px 0;
+}
+.gong-box-list{
+	display: flex;
+	background: hotpink;
+	border-radius: 10px;
+	padding: 25px 30px;
+	margin-bottom: 20px;
+	box-shadow: 0px 10px 13px -3px dimgray;
+}
+.sbl-img img{
+	width: 200px;
+	height: 200px;
+}
+.sbl-text{
+	margin-left: 30px;
+}
+.sbl-text h3{
+	font-size: 24px;
+	color: deeppink;
+}
+.sbl-text p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #97FF66;
+	line-height: 40px;
+	margin: 20px 0;
+}
+.sbl-text span{
+	font-size: 18px;
+	font-weight: 400;
+	color: #97FF66;
+}
+.about-page{
+	display: flex;
+	background: black;
+	border-radius: 10px;
+	box-shadow: 2px 3px 5px dimgray;
+	margin: 30px 0;
+}
+.about-page-text{
+	width: 60%;
+	padding: 38px 30px;
+}
+.about-page-text h1{
+	font-size: 30px;
+	font-weight: 400;
+	color: deeppink;
+}
+.about-page-text p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #97FF66;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+.about-page-text p span{
+	margin-right: 20px;
+}
+.about-page-text h2{
+	font-size: 20px;
+	font-weight: 400;
+	color: deeppink;
+	margin: 20px 0 10px;
+}
+.about-page-img{
+	display: block;
+	width: 40%;
+	margin-right: 70px;
+}
+.about-page-img img{
+	width: 150%;
+	height: 80%;
+	padding: 70px 0;
+	
+}
+.contact{
+	background: black;
+	border-radius: 10px;
+	padding: 40px 35px;
+}
+.cib-left{
+	display: flex;
+	align-items: center;
+}
+.cib-left img{
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+}
+.cib-left span{
+	color: #97FF66;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 3px;
+}
